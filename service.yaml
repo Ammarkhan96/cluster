@@ -7,7 +7,7 @@ spec:
     app: mywebapp
   ports:
     - protocol: TCP
-      port: 80
+      port: 5000
       targetPort: 8080
       nodePort: 30008
   type: NodePort
